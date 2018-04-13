@@ -15,3 +15,14 @@ function johnLennonFacts(facts) {
   }
   return resultArray;
 }
+
+function iLoveTheBeatles(number) {
+  var resultArray = [];
+  var n = 0;
+  do {
+    resultArray[n] = 'I love the Beatles!';
+    n++;
+    number++;
+  } while (number < 15)
+  return resultArray;
+}
